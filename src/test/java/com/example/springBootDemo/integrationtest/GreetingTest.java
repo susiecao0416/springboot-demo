@@ -9,6 +9,7 @@ import javax.annotation.Resource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+//Use real server
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class GreetingTest {
 
